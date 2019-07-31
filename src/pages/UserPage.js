@@ -19,7 +19,7 @@ class UserPage extends Component {
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">User name</h5>
+                                    <h4 class="card-title">User name</h4>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
                                 <ul class="list-group list-group-flush">
@@ -35,15 +35,5 @@ class UserPage extends Component {
         );
     }
 }
-
-const ColoredLine = ({ color }) => (
-    <hr
-        style={{
-            color: color,
-            backgroundColor: color,
-            height: 5
-        }}
-    />
-);
 
 export default UserPage;
