@@ -13,7 +13,7 @@ class NavigationBar extends Component {
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <nav class="navbar-nav">
-                  <Link class="nav-link active" to={"/"}>Home <span class="sr-only">(current)</span></Link>
+                  <Link class="nav-link" to={"/"}>Home <span class="sr-only">(current)</span></Link>
                   <Link class="nav-link" to={"/users"}>Users</Link>
                   <Link class="nav-link" to={"/roles"}>Roles</Link>
               </nav>
