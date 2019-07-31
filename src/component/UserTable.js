@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 
-class MainTable extends Component {
-
+class UserTable extends Component {
     render() {
         return (
-            <div className="container">
-                <table class="table table-sm  table-hover">
+                <table class="table table-bordered table-sm table-hover">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -35,9 +33,8 @@ class MainTable extends Component {
                         </tr>
                     </tbody>
                 </table>
-            </div>
         );
     }
 }
 
-export default MainTable;
+export default UserTable;
