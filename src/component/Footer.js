@@ -5,7 +5,7 @@ import { groupPatternsByBaseDirectory } from 'fast-glob/out/managers/tasks';
 class Footer extends Component {
     render() {
         const footerStyle = {
-            backgroundColor: "#F8F8F8",
+            backgroundColor: 'white',//"#F8F8F8",
             borderTop: "1px solid #E7E7E7",
             textAlign: "center",
             padding: "20px",

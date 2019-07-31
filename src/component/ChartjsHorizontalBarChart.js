@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {HorizontalBar} from 'react-chartjs-2';
 import 'chartjs-plugin-annotation';
 
-class SecondChart extends Component {
+class ChartjsHorizontalBarChart extends Component {
   render(){
     const options = {
         annotation: {
@@ -62,4 +62,4 @@ class SecondChart extends Component {
   }
 }
 
-export default SecondChart;
+export default ChartjsHorizontalBarChart;

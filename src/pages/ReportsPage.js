@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import FirstChart from '../component/FirstChart';
-import SecondChart from '../component/SecondChart';
+import ApexVerticalBarChart from '../component/ApexVerticalBarChart';
+import ChartjsHorizontalBarChart from '../component/ChartjsHorizontalBarChart';
+import ApexLineChart from '../component/ApexLineChart';
+import ChartjsAreaChart from '../component/ChartjsAreaChart';
 
 class ReportsPage extends Component {
   render() {
@@ -17,15 +19,31 @@ class ReportsPage extends Component {
                     <span class="h4">Apex Charts</span>
                         <div class="card rounded-10 shadow-sm mt-3">
                             <div class="container mt-3 justify-content-center align-items-center">
-                                <FirstChart/>
+                                <ApexVerticalBarChart/>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <span class="h4">Apex Charts</span>
+                        <span class="h4">Chart.js</span>
                         <div class="card rounded-10 shadow-sm mt-3">
                             <div class="container mt-3 justify-content-center align-items-center">
-                                <SecondChart/>
+                                <ChartjsHorizontalBarChart/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div class="card rounded-10 shadow-sm mt-3">
+                            <div class="container mt-3 justify-content-center align-items-center">
+                                <ApexLineChart/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card rounded-10 shadow-sm mt-3">
+                            <div class="container mt-3 justify-content-center align-items-center">
+                                <ChartjsAreaChart/>
                             </div>
                         </div>
                     </div>
